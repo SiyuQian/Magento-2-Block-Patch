@@ -15,8 +15,9 @@ composer require siyu/magento-2-core-block-patch:dev-master
 
 
 ## Uninstall
+``` bash
 ./bin/magento module:disable Siyu_BlockPatch --clear-static-content
 composer remove siyu/magento-2-core-block-patch
 ./bin/magento setup:di:compile
-
+```
 ## CHANGELOG
